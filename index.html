@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 Mood Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>2024 Mood Calendar</h2>
+        <h4>~ color each day depending on what your mood was / is ~</h4>
+        <p>Select mood:</p>
+        <div class="moods_container">
+            <button class="mood mood_1" id="mood_1">
+                😀
+            </button>
+            <button class="mood mood_2" id="mood_2">
+                🙂
+            </button>
+            <button class="mood mood_3" id="mood_3">
+                😐
+            </button>
+            <button class="mood mood_4" id="mood_4">
+                🙁
+            </button>
+            <button class="mood mood_5" id="mood_5">
+                😢
+            </button>
+        </div>
+        <p>then click on the circles below</p>
+        <button id="randomize" class="action_btn randomize">Randomize</button>
+        <button id="clear" class="action_btn clear">Clear</button>
+        <div id="calendar" class="calendar"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
